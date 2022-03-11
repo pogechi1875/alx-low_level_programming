@@ -9,9 +9,9 @@ int main(void)
 
 	char alphabt;
 
-	for (alphabt = 'a'; alhabt <= 'z'; c++)
+	for (alphabt = 'a'; alphabt <= 'z'; alphabt++)
 	{
-	if (alphabt != 'q' && alpabt != 'e')
+	if (alphabt != 'q' && alphabt != 'e')
 		putchar(alphabt);
 	}
 		putchar('\n');
