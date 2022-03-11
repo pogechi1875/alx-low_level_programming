@@ -1,19 +1,20 @@
 #include <stdio.h>
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - main code
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
+	int digit;
 
-	int numz;
-
-	for (numz = 0; numz <= 10; numz++)
+	for (digit = 0; digit < 10; digit++)
 	{
-		putchar(numz);
-		putchar('\n');
+		putchar(digit + '0');
 	}
 
-return (0);
+	putchar('\n');
+
+	return (0);
 }
