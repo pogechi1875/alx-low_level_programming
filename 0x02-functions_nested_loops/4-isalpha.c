@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - check for lower case letter
- * 
+ * @c : characterto check
  * Return:0 or 1
  */
 
