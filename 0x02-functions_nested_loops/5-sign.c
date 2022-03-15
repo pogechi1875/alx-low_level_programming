@@ -2,7 +2,7 @@
 
 /**
  * print_sign - check numers
- * 
+ * @n : number to check
  * Return:0 or 1
  */
 
