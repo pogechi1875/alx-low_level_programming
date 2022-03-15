@@ -15,5 +15,9 @@ void print_alphabet(void)
 		ch++;
 	} while (ch <= 'z');
 
+}
+int main(void)
+{
+	print_alphabet();
 	return (0);
 }
