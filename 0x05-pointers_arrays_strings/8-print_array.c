@@ -1,29 +1,22 @@
+#include<stdio.h>
 #include "main.h"
-#include <stdio.h>
-
 /**
- * print_array - prints n elements of an array
- * @a: array of integers
- * @n: number of items to print
- * Return: void
+ *print_array - update value.
+ *@a: value to be evaluate.
+ *@n: value to be evaluate.
+ *Return: not.
  */
-
 void print_array(int *a, int n)
 {
-	int i, s;
+	int x;
 
-	i = 0;
-	s = 1;
-	if (n < 0)
-		n = 0;
-	if (n > 0)
+	for (x = 0 ; x < n; x++)
 	{
-		while (a[i] != '\0' && s < n)
+		printf("%d", a[x]);
+		if (x != n - 1)
 		{
-			printf("%d, ", a[i]);
-			i++;
-			s++;
+			printf(", ");
 		}
-		printf("%d\n", a[i]);
 	}
+	printf("\n");
 }
